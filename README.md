@@ -1,6 +1,6 @@
 Operacje przeprowadzone na danych:
 1. Wczytanie danych:Dane zostały wczytane z pliku "coin_bitcoin.csv" przy użyciu biblioteki pandas. Wstępna analiza została wykonana za pomocą funkcji `describe()` i `info()`.
-2. Usunięcie niepotrzebnych danych: Skasowane zostały kolumny, które nie będą używane w procesie trenowania modelu (SNo, Name, Symbol). Daty zostały przekształcone do formatu `datetime`, a następnie dodano nową kolumnę 'Avg_Close_7days'.
+2. Usunięcie niepotrzebnych danych: Skasowane zostały kolumny, które nie będą używane w procesie trenowania modelu (SNo, Name, Symbol). Daty zostały przekształcone do formatu `datetime`.
 3. Usuwanie wartości zerowych w kolumnie Volume: Usunięte zostały wiersze, w których wartość w kolumnie 'Volume' była równa 0.
 4. Dodanie nowych kolumn: Dodano kolumny 'Amount Bitcoins', 'Intra-Day Volatility', 'Percent Intra-Day Volatility', 'Inter-Day Volatility', 'Percent Inter-Day Volatility'.
 5. Analiza dystrybucji kolumn: Przeprowadzono analizę dystrybucji kolumn 'High', 'Low', 'Volume', 'Marketcap', 'Open', 'Close', 'Amount Bitcoins' za pomocą wykresów liniowych.
